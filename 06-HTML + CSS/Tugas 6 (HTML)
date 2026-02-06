@@ -1,0 +1,185 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pricing Card Page</title>
+
+    <style>
+        * {
+            box-sizing: border-box;
+            margin: 0;
+            padding: 0;
+            font-family: Arial, sans-serif;
+        }
+
+        body {
+            background: linear-gradient(180deg, #f6f7ff, #ffffff);
+            color: #222;
+        }
+
+        h1 {
+            text-align: center;
+            margin-top: 60px;
+            font-size: 36px;
+        }
+
+        .subtitle {
+            text-align: center;
+            margin: 10px 0 50px;
+            color: #666;
+        }
+
+        .pricing-container {
+            display: flex;
+            justify-content: center;
+            gap: 25px;
+            padding: 0 20px 60px;
+            flex-wrap: wrap;
+        }
+
+        .card {
+            background: #fff;
+            width: 300px;
+            border-radius: 16px;
+            padding: 30px;
+            box-shadow: 0 10px 30px rgba(0,0,0,0.08);
+            text-align: left;
+        }
+
+        .card h2 {
+            margin-bottom: 8px;
+        }
+
+        .card p {
+            font-size: 14px;
+            color: #666;
+            margin-bottom: 20px;
+        }
+
+        .price {
+            font-size: 36px;
+            font-weight: bold;
+            margin-bottom: 20px;
+        }
+
+        .price span {
+            font-size: 14px;
+            color: #777;
+        }
+
+        .features {
+            list-style: none;
+            margin-bottom: 25px;
+        }
+
+        .features li {
+            margin-bottom: 10px;
+            font-size: 14px;
+        }
+
+        .features li::before {
+            content: "✓";
+            color: #6c5ce7;
+            margin-right: 8px;
+        }
+
+        .btn {
+            display: block;
+            text-align: center;
+            padding: 12px;
+            border-radius: 10px;
+            text-decoration: none;
+            font-weight: bold;
+            border: 1px solid #ddd;
+            color: #333;
+        }
+
+        /* Highlight Card (Middle) */
+        .featured {
+            border: 2px solid #6c5ce7;
+            transform: translateY(-20px);
+        }
+
+        .badge {
+            background: #6c5ce7;
+            color: white;
+            font-size: 12px;
+            padding: 6px 12px;
+            border-radius: 20px;
+            display: inline-block;
+            margin-bottom: 15px;
+        }
+
+        .featured .btn {
+            background: #6c5ce7;
+            color: white;
+            border: none;
+        }
+
+        /* Responsive */
+        @media (max-width: 768px) {
+            .featured {
+                transform: none;
+            }
+        }
+    </style>
+</head>
+
+<body>
+
+    <h1>Choose Your Plan</h1>
+    <p class="subtitle">Affordable and flexible pricing for your needs</p>
+
+    <div class="pricing-container">
+
+        <div class="card">
+            <h2>Basic</h2>
+            <p>For individuals getting started</p>
+            <div class="price">$10 <span>/month</span></div>
+
+            <ul class="features">
+                <li>Task management</li>
+                <li>File sharing</li>
+                <li>Email support</li>
+                <li>Mobile access</li>
+            </ul>
+
+            <a href="#" class="btn">Get Started</a>
+        </div>
+
+        <div class="card featured">
+            <span class="badge">Recommended</span>
+            <h2>Pro</h2>
+            <p>Perfect for growing teams</p>
+            <div class="price">$25 <span>/month</span></div>
+
+            <ul class="features">
+                <li>Advanced analytics</li>
+                <li>Team collaboration</li>
+                <li>Priority support</li>
+                <li>Unlimited projects</li>
+            </ul>
+
+            <a href="#" class="btn">Start with Pro</a>
+        </div>
+
+        <div class="card">
+            <h2>Enterprise</h2>
+            <p>For large organizations</p>
+            <div class="price">$50 <span>/month</span></div>
+
+            <ul class="features">
+                <li>Dedicated manager</li>
+                <li>Custom integrations</li>
+                <li>Unlimited users</li>
+                <li>24/7 support</li>
+            </ul>
+
+            <a href="#" class="btn">Contact Sales</a>
+        </div>
+
+    </div>
+
+</body>
+</html>
