@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SiRusuk</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <!-- NAVBAR -->
+    <header>
+        <h1>SiRusuk</h1>
+        <nav>
+            <a href="#">Beranda</a>
+        </nav>
+    </header>
+
+    <div class="container">
+
+        <!-- HIGHLIGHT + CTA -->
+        <section class="hero">
+            <div class="hero-text">
+                <h2>SiRusuk</h2>
+                <p>SiRusuk solusi terpercaya untuk berkonsultasi dengan dokter</p>
+                <button>Konsultasi Sekarang</button>
+            </div>
+
+            <!-- GAMBAR HIGHLIGHT -->
+            <div class="hero-image">
+                Gambar akan ditambahkan
+            </div>
+        </section>
+
+        <!-- MITRA KAMI -->
+        <section class="mitra">
+            <h3>Mitra Kami</h3>
+            <p>HaloDoc</p>
+
+            <!-- LOGO HALODOC -->
+            <div class="mitra-logo">
+                Logo
+            </div>
+        </section>
+
+        <!-- KEUNGGULAN -->
+        <section class="keunggulan">
+            <!-- GAMBAR KEUNGGULAN -->
+            <div class="keunggulan-image"></div>
+
+            <div class="keunggulan-text">
+                <h3>Keunggulan Produk Kami</h3>
+                <p>Mudah, Cepat dan Terpercaya</p>
+                <ul>
+                    <li>Terpercaya sejak 2022</li>
+                    <li>Memiliki Mitra unggulan</li>
+                    <li>Terjamin bisa konsultasi segala penyakit</li>
+                </ul>
+            </div>
+        </section>
+
+    </div>
+
+    <!-- FOOTER -->
+    <footer>
+        <p>Sosial media akan ditambahkan di sini</p>
+    </footer>
+
+</body>
+</html>
