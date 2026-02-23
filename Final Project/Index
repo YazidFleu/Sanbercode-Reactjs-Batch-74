@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>JobFinder - Beranda</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <!-- Navbar -->
+    <header>
+        <nav class="navbar">
+            <div class="logo">JobFinder</div>
+            <ul class="nav-links">
+                <li><a href="index.html">Beranda</a></li>
+                <li><a href="job-vacancy.html">Lowongan Pekerjaan</a></li>
+                <li><a href="#">Kontak</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <!-- Hero Section -->
+    <section class="hero">
+        <h1>Temukan Karier Impianmu</h1>
+        <p>Platform terpercaya untuk mencari dan menemukan lowongan pekerjaan terbaik.</p>
+        <a href="job-vacancy.html" class="btn">Lihat Lowongan</a>
+    </section>
+
+    <!-- Footer -->
+    <footer>
+        <p>© 2026 JobFinder. All Rights Reserved.</p>
+    </footer>
+
+</body>
+</html>

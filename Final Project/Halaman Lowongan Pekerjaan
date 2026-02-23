@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>JobFinder - Lowongan Pekerjaan</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <!-- Navbar -->
+    <header>
+        <nav class="navbar">
+            <div class="logo">JobFinder</div>
+            <ul class="nav-links">
+                <li><a href="index.html">Beranda</a></li>
+                <li><a href="job-vacancy.html">Lowongan Pekerjaan</a></li>
+                <li><a href="#">Kontak</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <!-- Section Data Lowongan -->
+    <section class="job-section">
+        <h2>Daftar Lowongan Pekerjaan</h2>
+
+        <div class="job-container">
+
+            <div class="job-card">
+                <h3>Frontend Developer</h3>
+                <p><strong>Perusahaan:</strong> PT Teknologi Maju</p>
+                <p><strong>Lokasi:</strong> Jakarta</p>
+                <p><strong>Tipe:</strong> Full Time</p>
+                <button class="apply-btn">Lamar Sekarang</button>
+            </div>
+
+            <div class="job-card">
+                <h3>UI/UX Designer</h3>
+                <p><strong>Perusahaan:</strong> PT Kreatif Digital</p>
+                <p><strong>Lokasi:</strong> Bandung</p>
+                <p><strong>Tipe:</strong> Remote</p>
+                <button class="apply-btn">Lamar Sekarang</button>
+            </div>
+
+            <div class="job-card">
+                <h3>Backend Developer</h3>
+                <p><strong>Perusahaan:</strong> PT Solusi Data</p>
+                <p><strong>Lokasi:</strong> Surabaya</p>
+                <p><strong>Tipe:</strong> Full Time</p>
+                <button class="apply-btn">Lamar Sekarang</button>
+            </div>
+
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer>
+        <p>© 2026 JobFinder. All Rights Reserved.</p>
+    </footer>
+
+</body>
+</html>
